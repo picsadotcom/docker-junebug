@@ -32,11 +32,7 @@ exec jb \
     --amqp-vhost "$AMQP_VHOST" \
     --amqp-user "$AMQP_USER" \
     --amqp-password "$AMQP_PASSWORD" \
-    --channels whatsapp:vxyowsup.whatsapp.WhatsAppTransport \
-    --channels vumigo:vumi.transports.vumi_bridge.GoConversationTransport \
-    --channels facebook:vxmessenger.transport.MessengerTransport \
     --channels smpp:vumi.transports.smpp.SmppTransceiverTransport \
-    --channels blastsms:vxblastsms.ussd.BlastSMSUssdTransport \
     --channels aat:vxaat.ussd.AatUssdTransport \
     --plugin '{
       "type": "junebug.plugins.nginx.NginxPlugin",

@@ -1,6 +1,2 @@
-junebug==0.1.11
-vxyowsup==0.1.8
-yowsup2==2.5.0
-vxblastsms==0.1.2
-vxmessenger==1.2.6
-vxaat==0.5.3
+junebug==0.1.14
+vxaat==0.5.5
